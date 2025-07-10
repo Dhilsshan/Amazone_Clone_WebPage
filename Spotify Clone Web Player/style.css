@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-bar {
+  width: 300px;
+  background: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.side-bar-nav {
+  background: rgb(23, 23, 23);
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+
+.side-bar-nav .logo {
+  width: 120px;
+  padding-left: 15px;
+}
+
+.side-bar-nav .logo img {
+  width: 100px;
+}
+
+.side-bar-nav ul {
+  list-style: none;
+}
+
+.side-bar-nav ul li {
+  padding: 10px 20px;
+}
+
+.side-bar-nav ul li a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.side-bar-nav ul li a:hover {
+  color: white;
+}
+
+.side-bar-nav ul li a i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.library::after {
+  content: '+';
+  float: right;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 23px;
+}
+
+.create-playlist {
+  background: rgb(36, 36, 36);
+  color: white;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.follow-podcast {
+  background: rgb(36, 36, 36);
+  color: white;
+  padding: 30px 15px;
+  border-radius: 10px;
+}
+
+.side-bar-scroll {
+  height: 140px;
+  overflow-y: auto;
+}
+
+.create-playlist p {
+  color: rgb(202, 202, 202);
+  font-size: 0.8rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.follow-podcast p {
+  color: rgb(202, 202, 202);
+  font-size: 0.85rem;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+
+.create-playlist h4 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.follow-podcast h4 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.side-bar-scroll::-webkit-scrollbar {
+  background: transparent;
+}
+
+.side-bar-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  width: 9px;
+}
+
+.side-bar-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgb(57, 57, 57);
+  width: 4px;
+}
+
+.create-playlist button {
+  padding: 8px 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.follow-podcast button {
+  padding: 8px 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.privacy ul li a {
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.privacy ul li a:hover {
+  text-decoration: underline;
+  color: rgb(165, 165, 165);
+}
+
+.privacy ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.privacy ul li {
+  padding: 0 10px;
+  padding-bottom: 8px;
+}
+
+.eng-button {
+  padding: 20px 30px;
+}
+
+.eng-button button {
+  padding: 10px 30px;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: white;
+  border: 1px solid #818080;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.eng-button button:hover {
+  padding: 11px 31px;
+  border: 1px solid white;
+}
+
+.main-section {
+  margin-left: 300px;
+  background: rgb(23, 23, 23);
+  height: 100vh;
+}
+
+.main-section .top-nav {
+  padding: 25px 30px;
+  background: #030303;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section .top-nav .prev-btn button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.main-section .top-nav .prev-btn button i {
+  color: rgb(136, 136, 136);
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.top-nav .login-btn .sign-up {
+  background: transparent;
+  border: none;
+  color: #838181;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.top-nav .login-btn .sign-up:hover {
+  color: white;
+}
+
+.top-nav .login-btn .login {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 600;
+  background: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+}
